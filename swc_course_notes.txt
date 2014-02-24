@@ -1,6 +1,7 @@
 software carpentry
 
-global discussion 
+global live discussion page for courses: https://etherpad.mozilla.org/esac
+Another very nice idea: give people green and red stickers and ask them to paste the green or red on the laptop if things go well or wrong.
 
 git --global user.name "Bruno Merín"
 git --global user.email bmerin@sciops.esa.int
@@ -17,6 +18,4 @@ Then type git config -l and will list your global settings.
 To check status: git status
 
 Start tracking: git add names.txt
-
-
 
