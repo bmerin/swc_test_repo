@@ -1,0 +1,20 @@
+software carpentry
+
+git --global user.name "Bruno Merín"
+git --global user.email bmerin@sciops.esa.int
+git --global color.ui auto
+
+Now create a folder called swc_test_repo where you will create the first repository.
+
+once done that, type git init and that should create a file called .git in that directory
+
+This just needs to be done 
+
+Then type git config -l and will list your global settings.
+
+To check status: git status
+
+Start tracking: git add names.txt
+
+
+
