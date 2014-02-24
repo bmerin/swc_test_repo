@@ -4,5 +4,6 @@ And experimented with creating different files at different branches
 I add now a line at exercise branch
 Here I add yet another line.
  And here I added something but at master branch
+Final line added to this file in exercise branch
 
 
