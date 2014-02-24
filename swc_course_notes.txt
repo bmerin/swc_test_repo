@@ -3,9 +3,9 @@ software carpentry
 global live discussion page for courses: https://etherpad.mozilla.org/esac
 Another very nice idea: give people green and red stickers and ask them to paste the green or red on the laptop if things go well or wrong.
 
-git --global user.name "Bruno Merín"
-git --global user.email bmerin@sciops.esa.int
-git --global color.ui auto
+> git --global user.name "Bruno Merín"
+> git --global user.email bmerin@sciops.esa.int
+> git --global color.ui auto
 
 Now create a folder called swc_test_repo where you will create the first repository.
 
@@ -13,9 +13,30 @@ once done that, type git init and that should create a file called .git in that 
 
 This just needs to be done 
 
-Then type git config -l and will list your global settings.
+Then type 
 
-To check status: git status
+> git config -l and will list your global settings.
+
+To check status: 
+
+> git status
 
 Start tracking: git add names.txt
+
+Rolling back tracking/staging:
+
+> git reset HEAD names.txt -> that removes the file from the staging area
+> git checkout -- names.txt -> retrieve the last file in the stage, overwriting my file.
+
+To check status:
+
+> git log -2
+
+Last three steps..
+
+> git diff names.txt 
+
+this gives the differences between staged and committed files.
+
+
 
