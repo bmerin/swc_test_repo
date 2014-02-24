@@ -1,5 +1,7 @@
 software carpentry
 
+global discussion 
+
 git --global user.name "Bruno Merín"
 git --global user.email bmerin@sciops.esa.int
 git --global color.ui auto
