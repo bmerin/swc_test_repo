@@ -38,5 +38,5 @@ Last three steps..
 
 this gives the differences between staged and committed files.
 
-
+> git add filename
 
