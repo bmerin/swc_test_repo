@@ -1,1 +1,3 @@
 Today I am learning about handling branches in code development
+And experimented with creating different files at different branches
+I add now a line at exercise branch
