@@ -1,6 +1,12 @@
 software carpentry
 
 global live discussion page for courses: https://etherpad.mozilla.org/esac
+
+Other nice links:
+
+http://git-scm.com/book/en : very nice book on git.
+http://pcottle.github.io/learnGitBranching/index.html?nodemo
+
 Another very nice idea: give people green and red stickers and ask them to paste the green or red on the laptop if things go well or wrong.
 
 > git --global user.name "Bruno Merín"
